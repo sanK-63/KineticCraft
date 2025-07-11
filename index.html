@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <!-- Добавляем важные мета-теги -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ModernCraft - инновационный лаунчер для Minecraft с уникальными возможностями">
+  <title>KineticCraft - Лучший сервер Minecraft</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+</head>
+<body>
+  <!-- Новый хедер с мега-меню -->
+<header class="main-header">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <span>Kinetic</span><span class="gradient-text">Craft</span>
+    </a>
+
+    <nav class="main-nav">
+      <a href="index.html" class="nav-btn active"><i class="fas fa-home"></i> Главная</a>
+      <a href="download.html" class="nav-btn"><i class="fas fa-download"></i> Скачать</a>
+
+      <a href="changelog.html" class="nav-btn"><i class="fas fa-list"></i> Обновления</a>
+    </nav>
+
+    <div class="header-right">
+      <button class="theme-toggle" aria-label="Переключить тему">
+        <i class="fas fa-moon"></i>
+      </button>
+    </div>
+
+      <div class="user-profile">
+        <img src="/images/avatar.jpg" alt="Аватар">
+        <span>Username</span>
+        <div class="profile-dropdown">
+          <a href="/profile.html"><i class="fas fa-user"></i> Профиль</a>
+          <a href="/logout"><i class="fas fa-sign-out-alt"></i> Выйти</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- Герой-секция с видео-фоном -->
+  <section class="hero">
+    <video autoplay muted loop id="bg-video">
+      <source src="/videos/background.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+    
+    <div class="container" data-aos="fade-up">
+      <h1>
+        <span class="gradient-text">KineticCraft</span> Launcher
+      </h1>
+      <p class="subtitle">Инновационный лаунчер для нового поколения игроков Minecraft</p>
+      
+      <div class="cta-buttons">
+        <a href="download.html" class="btn btn-large">
+          <i class="fas fa-download"></i> Скачать сейчас
+        </a>
+        <a href="#features" class="btn btn-outline">
+          <i class="fas fa-play-circle"></i> Видео-обзор
+        </a>
+      </div>
+      
+      <div class="stats-grid">
+        <div class="stat-item">
+          <div class="stat-number" data-count="10000">0</div>
+          <div class="stat-label">Активных игроков</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="99">0</div>
+          <div class="stat-label">Позитивных отзывов</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-count="24">0</div>
+          <div class="stat-label">Обновлений в месяц</div>
+        </div>
+      </div>
+    </div>
+    
+    <a href="#features" class="scroll-down">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- Секция возможностей -->
+  <section id="features" class="section-features">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Уникальные <span class="gradient-text">возможности</span></h2>
+        <p>Что делает наш лаунчер особенным</p>
+      </div>
+      
+      <div class="features-grid">
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature-icon">
+            <i class="fas fa-bolt"></i>
+          </div>
+          <h3>Молниеносная скорость</h3>
+          <p>Оптимизированный движок обеспечивает быструю загрузку и плавный геймплей</p>
+        </div>
+        
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-icon">
+            <i class="fas fa-cloud"></i>
+          </div>
+          <h3>Облачные сохранения</h3>
+          <p>Ваши миры и настройки синхронизируются между устройствами</p>
+        </div>
+        
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="feature-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Защита от читов</h3>
+          <p>Встроенная система античита для честной игры</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Секция с видео-презентацией -->
+  <section class="section-video">
+    <div class="container">
+      <div class="video-wrapper" data-aos="fade-up">
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/yourvideo" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Секция отзывов -->
+  <section class="section-reviews">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Отзывы <span class="gradient-text">игроков</span></h2>
+        <p>Что говорят наши пользователи</p>
+      </div>
+      
+      <div class="reviews-slider" data-aos="fade-up">
+        <div class="review-card">
+          <div class="review-header">
+            <img src="/images/users/user1.jpg" alt="Игрок 1">
+            <div class="review-author">
+              <h4>AlexMiner</h4>
+              <div class="review-rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <p>"Лучший лаунчер, который я использовал! Скорость загрузки просто потрясающая."</p>
+        </div>
+        
+        <!-- Другие отзывы -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Секция FAQ -->
+  <section class="section-faq">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <h2>Частые <span class="gradient-text">вопросы</span></h2>
+        <p>Все, что вам нужно знать</p>
+      </div>
+      
+      <div class="faq-accordion" data-aos="fade-up">
+        <div class="faq-item">
+          <button class="faq-question">
+            Как установить лаунчер?
+            <i class="fas fa-chevron-down"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Просто скачайте установщик с нашей страницы загрузок и следуйте инструкциям мастера установки.</p>
+          </div>
+        </div>
+        
+        <!-- Другие вопросы -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Секция CTA -->
+  <section class="section-cta">
+    <div class="container" data-aos="fade-up">
+      <h2>Готовы начать?</h2>
+      <p>Присоединяйтесь к тысячам довольных игроков прямо сейчас</p>
+      <div class="cta-buttons">
+        <a href="download.html" class="btn btn-large">
+          <i class="fas fa-download"></i> Скачать лаунчер
+        </a>
+        <a href="login.html" class="btn btn-outline">
+          <i class="fas fa-user"></i> Создать аккаунт
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <a href="index.html" class="logo">
+          <span>Kinetic</span><span class="gradient-text">Craft</span>
+        </a>
+        <p>Инновационный лаунчер для Minecraft с уникальными возможностями и высокой производительностью.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Discord"><i class="fab fa-discord"></i></a>
+          <a href="#" aria-label="VK"><i class="fab fa-vk"></i></a>
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Навигация</h3>
+        <ul>
+          <li><a href="index.html"><i class="fas fa-chevron-right"></i> Главная</a></li>
+          <li><a href="download.html"><i class="fas fa-chevron-right"></i> Скачать</a></li>
+          <li><a href="features.html"><i class="fas fa-chevron-right"></i> Возможности</a></li>
+          <li><a href="changelog.html"><i class="fas fa-chevron-right"></i> Обновления</a></li>
+          <li><a href="reviews.html"><i class="fas fa-chevron-right"></i> Отзывы</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Поддержка</h3>
+        <ul>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Документация</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> FAQ</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Форум</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Контакты</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-section">
+        <h3>Контакты</h3>
+        <ul class="contact-info">
+          <li><i class="fas fa-envelope"></i> support@moderncraft.com</li>
+          <li><i class="fas fa-phone"></i> +7 (123) 456-78-90</li>
+          <li><i class="fas fa-map-marker-alt"></i> Россия, Москва</li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2025 KineticCraft. Все права защищены.</p>
+      <div class="legal-links">
+        <a href="#">Политика конфиденциальности</a>
+        <a href="#">Условия использования</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>

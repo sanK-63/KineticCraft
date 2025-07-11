@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Описание страницы KineticCraft">
+  <title>KineticCraft – Страница</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">
+        <span>Kinetic</span><span class="gradient-text">Craft</span>
+      </a>
+      <button class="menu-toggle" aria-label="Открыть меню">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav class="main-nav">
+        <a href="index.html" class="nav-btn"><i class="fas fa-home"></i> Главная</a>
+        <a href="download.html" class="nav-btn"><i class="fas fa-download"></i> Скачать</a>
+        <a href="changelog.html" class="nav-btn active"><i class="fas fa-list"></i> Изменения</a>
+        <a href="reviews.html" class="nav-btn"><i class="fas fa-star"></i> Отзывы</a>
+      </nav>
+      <div class="header-right">
+        <button class="theme-toggle" aria-label="Переключить тему">
+          <i class="fas fa-moon"></i>
+        </button>
+      </div>
+      <div class="user-profile">
+        <img src="/images/avatar.jpg" alt="Аватар">
+        <span>Username</span>
+        <div class="profile-dropdown">
+          <a href="/profile.html"><i class="fas fa-user"></i> Профиль</a>
+          <a href="/logout"><i class="fas fa-sign-out-alt"></i> Выйти</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" data-aos="fade-up" style="min-height: 60vh;">
+    <div class="video-overlay"></div>
+    <div class="container">
+      <h1>Лаунчер <span class="gradient-text">KineticCraft</span></h1>
+      <p class="subtitle">Мощный лаунчер Minecraft с авторизацией и системой модов</p>
+      <div class="cta-buttons">
+        <a href="login.html" class="btn"><i class="fas fa-sign-in-alt"></i> Войти</a>
+        <a href="login.html" class="btn btn-outline"><i class="fas fa-user-plus"></i> Регистрация</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-features">
+    <div class="container" data-aos="fade-up">
+      <h2>Основное содержимое</h2>
+      <p>Здесь будет информация о текущей странице или компоненте лаунчера.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <a href="index.html" class="logo">
+          <span>Kinetic</span><span class="gradient-text">Craft</span>
+        </a>
+        <p>Инновационный лаунчер Minecraft с уникальными возможностями и высокой производительностью.</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-discord"></i></a>
+          <a href="#"><i class="fab fa-vk"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-telegram"></i></a>
+        </div>
+      </div>
+      <div class="footer-section">
+        <h3>Навигация</h3>
+        <ul>
+          <li><a href="index.html"><i class="fas fa-chevron-right"></i> Главная</a></li>
+          <li><a href="download.html"><i class="fas fa-chevron-right"></i> Скачать</a></li>
+          <li><a href="changelog.html"><i class="fas fa-chevron-right"></i> Обновления</a></li>
+          <li><a href="reviews.html"><i class="fas fa-chevron-right"></i> Отзывы</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Поддержка</h3>
+        <ul>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> FAQ</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Документация</a></li>
+          <li><a href="#"><i class="fas fa-chevron-right"></i> Контакты</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 KineticCraft. Все права защищены.</p>
+      <div class="legal-links">
+        <a href="#">Политика конфиденциальности</a>
+        <a href="#">Условия использования</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
